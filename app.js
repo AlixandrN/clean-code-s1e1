@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incomplete-tasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.getElementById("incompl-tasks");//ul of-tasks
+var completedTasksHolder=document.getElementById("compl-tasks");//completed-tasks
 
 
 //New task list item
@@ -129,9 +129,9 @@ var taskCompleted=function(){
 
 var taskIncomplete=function(){
     console.log("Incomplete Task...");
-//Mark task as incomplete.
+//Mark task a.
     //When the checkbox is unchecked
-    //Append the task list item to the #incomplete-tasks.
+    //Append the task list item to the-tasks.
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
