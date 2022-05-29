@@ -18,9 +18,12 @@
 }
 
 @media (max-width:768px) {
+
 .title { text-align: center;
 }
+
 }
+
 .main-elem {
     display: block;
     width: 500px;
