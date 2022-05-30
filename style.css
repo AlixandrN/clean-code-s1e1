@@ -30,6 +30,7 @@
     margin: 0 auto 0;
 }
 .task__text,
+.li__text,
 .abled_edit-mode__checkbox-text,
 .abled_edit-mode__text {
     width: 56%;
@@ -49,6 +50,9 @@
     list-style: none;
 }
 .task__text,
+.li__text,
+.abled_edit-mode__text,
+.abled_edit-mode__checkbox-text,
 .input,
 .edit,
 .del {
